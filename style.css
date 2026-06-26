@@ -1,0 +1,17 @@
+.typing-container {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    width:0;
+
+    animation:
+        typing 3.5s steps(29) forwards,
+        blink 0.75s step-end infinite;
+ 
+}
