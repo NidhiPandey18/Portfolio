@@ -1,17 +1,32 @@
+/* body{
+    background: linear-gradient(45deg,#312244, #006466);
+    min-height: 100vh;
+}
+
 .typing-container {
     display: inline-block;
     margin-top: 40px;
+    margin-left: 25px;
 }
 
 
 .typing-text {
+    color: white;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid black;
     width:0;
 
     animation:
-        typing 3.5s steps(29) forwards,
+        typing 3.5s steps(19) forwards,
         blink 0.75s step-end infinite;
  
 }
+@keyframes typing {
+    from {width: 0;}
+    to { width: 19ch;}
+}
+@keyframes blink {
+    from,to {border-color: transparent;}
+    50% {border-color: white;}
+} */
